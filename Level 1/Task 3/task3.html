@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="task3style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Calculator by Abdul Rauf</h1>
+      <div class="calculator">
+        <div class="input-display" id="input-display"></div>
+        <div class="display" id="display">0</div>
+        <div class="row">
+          <button onclick="appendToDisplay('7')">7</button>
+          <button onclick="appendToDisplay('8')">8</button>
+          <button onclick="appendToDisplay('9')">9</button>
+          <button class="operator" onclick="appendToDisplay('/')">/</button>
+        </div>
+        <div class="row">
+          <button onclick="appendToDisplay('4')">4</button>
+          <button onclick="appendToDisplay('5')">5</button>
+          <button onclick="appendToDisplay('6')">6</button>
+          <button class="operator" onclick="appendToDisplay('*')">*</button>
+        </div>
+        <div class="row">
+          <button onclick="appendToDisplay('1')">1</button>
+          <button onclick="appendToDisplay('2')">2</button>
+          <button onclick="appendToDisplay('3')">3</button>
+          <button class="operator" onclick="appendToDisplay('-')">-</button>
+        </div>
+        <div class="row">
+          <button onclick="appendToDisplay('0')">0</button>
+          <button onclick="appendToDisplay('.')">.</button>
+          <button class="equal" onclick="calculate()">=</button>
+          <button class="operator" onclick="appendToDisplay('+')">+</button>
+        </div>
+        <div class="row">
+          <button onclick="calculatePercentage()">%</button>
+          <button onclick="clearDisplay()">C</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="task3script.js"></script>
+  </body>
+</html>
