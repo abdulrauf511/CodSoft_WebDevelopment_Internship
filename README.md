@@ -1,3 +1,3 @@
 # codsoftWebDevInternship
-Web Development Internship Offered by CodSoft 
+Web Development Internship Offered by CodSoft \n
 HTML, CSS, JavaScript & React-JS
